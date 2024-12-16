@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Page Title -->
+    <title>product Details</title>
+    <!-- Page Icon -->
+    <link rel="icon" href="page-icon.png">
+    <!-- Linking CSS File -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-2.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <!-- Font Awesome Icon Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Linking SwiperJS CSS -->
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>  
+    <!-- Linking SwiperJS JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>
+    <!-- Linking JS File -->
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <div class="nav-bar">
+        <div class="co-1 container">
+            <div class="image">
+                <img src="logo.png" alt="">
+            </div>
+            <div class="nav-bar-links">
+                <div class="link">
+                    <a href="#top-selling">Top Selling</a>
+                </div>
+                <div class="link">
+                    <a href="#new-arrivals">New Arrivals</a>
+                </div>
+                <div class="link">
+                    <a href="">Categories</a>
+                    <ul>
+                        <li><a href="">Wood</a></li>
+                        <hr>
+                        <li><a href="">Glass</a></li>
+                        <hr>
+                        <li><a href="">Crochet</a></li>
+                        <hr>
+                        <li><a href="">Leather</a></li>
+                    </ul>
+                </div>
+                <form action="">
+                    <input type="text" placeholder="Search.." name="search">
+                    <button type="submit">
+                        <span class="material-symbols-outlined">search</span>
+                    </button>
+                </form>
+                <a href=""><span  class="material-symbols-outlined icon">shopping_cart</span></a>
+                <a href=""><span  class="material-symbols-outlined icon">account_circle</span></a>
+            </div>
+        </div>
+    </div>
+    <div class="product-section">
+        <div class="container">
+            <div class="product-image">
+                <img class="main" src="product-10.jpg" alt="">
+                <img class="sub" src="product-1.jpg" alt="">
+                <img class="sub" src="product-7.jpg" alt="">
+                <img class="sub" src="product-10.jpg" alt="">
+            </div>
+            <div class="product-details">
+                <h1>Wooden Coasters</h1>
+                <div class="rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel ipsum non dui consectetur consectetur.</p>
+                <h2 class="price">180<span>L.E</span></h2>
+                <hr>
+                <div class="buy">
+                    <div class="counter">
+                        <button class="subtract"><span class="material-symbols-outlined">remove</span></button>
+                        <p class="count">1</p>
+                        <button class="add"><span class="material-symbols-outlined">add_2</span></button>
+                    </div>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+                <div class="customer-review">
+                    <div class="text-review">
+                        <label for="">ADD REVIEW:</label>
+                        <textarea name="" id="" placeholder="Write your review here"></textarea>
+                    </div>
+                    <div class="rating">
+                        <label for="">ADD RATE:</label>
+                        <div class="stars">
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                    </div>
+                    <button class="send-review-btn">Send</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="comments-section swiper">
+        <div class="container">
+            <div class="header-and-control">
+                <h2>ALL REVIEWS</h2>
+                <div class="control">
+                    <button class="swiper-left">
+                        <span class="material-symbols-outlined">
+                            arrow_back
+                        </span>
+                    </button>
+                    <button class="swiper-right">
+                        <span class="material-symbols-outlined">
+                            arrow_forward
+                        </span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="comments-box swiper-wrapper">
+            <div class="comment swiper-slide">
+                <div class="user-info">
+                    <img src="userProfileImage-1.jpg" alt="">
+                    <h4>Laura Bennett</h4>
+                    <p class="date">March 15, 2022</p>
+                </div>
+                <div class="comment-info">
+                    <p>The product is absolutely amazing! The craftsmanship is stunning, and the quality is top-notch. I’ll definitely shop here again!</p>
+                </div>
+                <div class="rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                </div>
+            </div>
+            <div class="comment swiper-slide">
+                <div class="user-info">
+                    <img src="userProfileImage-2.jpg" alt="">
+                    <h4>Daniel Carter</h4>
+                    <p class="date">March 15, 2022</p>
+                </div>
+                <div class="comment-info">
+                    <p>I’m so impressed with the product! It’s clear that it was made with love and attention to detail, and the packaging was beautiful too.</p>
+                </div>
+                <div class="rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                </div>
+            </div>
+            <div class="comment swiper-slide">
+                <div class="user-info">
+                    <img src="userProfileImage-3.jpg" alt="">
+                    <h4>Ethan Hayes</h4>
+                    <p class="date">March 15, 2022</p>
+                </div>
+                <div class="comment-info">
+                    <p>I had an excellent experience! The product matched the description perfectly, and delivery was quick. Thank you for this beautiful piece.</p>
+                </div>
+                <div class="rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                </div>
+            </div>
+            <div class="comment swiper-slide">
+                <div class="user-info">
+                    <img src="userProfileImage-4.jpg" alt="">
+                    <h4>Ryan Cooper</h4>
+                    <p class="date">March 15, 2022</p>
+                </div>
+                <div class="comment-info">
+                    <p>I love the unique handmade touch of this product! It makes me feel special, and I’m looking forward to buying more of these artistic creations.</p>
+                </div>
+                <div class="rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                </div>
+            </div>
+            <div class="comment swiper-slide">
+                <div class="user-info">
+                    <img src="userProfileImage-5.jpg" alt="">
+                    <h4>Sophia Reed</h4>
+                    <p class="date">March 15, 2022</p>
+                </div>
+                <div class="comment-info">
+                    <p>The product is gorgeous and exceeded my expectations. I highly recommend it to anyone who loves handmade items!</p>
+                </div>
+                <div class="rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                </div>
+            </div>
+            <div class="comment swiper-slide">
+                <div class="user-info">
+                    <img src="userProfileImage-6.jpg" alt="">
+                    <h4>Andrew Collins</h4>
+                    <p class="date">March 15, 2022</p>
+                </div>
+                <div class="comment-info">
+                    <p>Thank you for this wonderful piece! It has made such a difference in my home decor, and everyone keeps asking about it.</p>
+                </div>
+                <div class="rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                </div>
+            </div>
+            <div class="comment swiper-slide">
+                <div class="user-info">
+                    <img src="userProfileImage-7.jpg" alt="">
+                    <h4>Lucas Perry</h4>
+                    <p class="date">March 15, 2022</p>
+                </div>
+                <div class="comment-info">
+                    <p>The details are incredible, and the quality is beyond expectations. I appreciate the creativity and effort behind this handmade product.</p>
+                </div>
+                <div class="rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                </div>
+            </div>
+            <div class="comment swiper-slide">
+                <div class="user-info">
+                    <img src="userProfileImage-8.jpg" alt="">
+                    <h4>Megan Brooks</h4>
+                    <p class="date">March 15, 2022</p>
+                </div>
+                <div class="comment-info">
+                    <p>I absolutely loved the product, and the service was excellent. It feels great to support local handmade crafts.</p>
+                </div>
+                <div class="rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                </div>
+            </div>
+            <div class="comment swiper-slide">
+                <div class="user-info">
+                    <img src="userProfileImage-9.jpg" alt="">
+                    <h4>Megan Brooks</h4>
+                    <p class="date">March 15, 2022</p>
+                </div>
+                <div class="comment-info">
+                    <p>A fantastic experience! The piece is so unique and beautifully crafted. You can really see the effort and passion that went into it. Thank you!</p>
+                </div>
+                <div class="rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="products-section" id="top-selling">
+        <div class="co-4 container">
+            <h1>TOP SELLING</h1>
+            <div class="cards-box">
+                <div class="card">
+                    <img src="product-18.jpg" alt="">
+                    <div class="card-info">
+                        <h3>Wooden Decorations</h3>
+                        <div class="rating">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                        </div>
+                        <div class="price">
+                            <p class="current-price">100<span>L.E</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="product-17.jpg" alt="">
+                    <div class="card-info">
+                        <h3>Crochet Tablecloth</h3>
+                        <div class="rating">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                        <div class="price">
+                            <p class="current-price">250<span>L.E</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="product-16.jpg" alt="">
+                    <div class="card-info">
+                        <h3>Polymer Clay Cup</h3>
+                        <div class="rating">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                        <div class="price">
+                            <p class="current-price">110<span>L.E</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="product-19.jpg" alt="">
+                    <div class="card-info">
+                        <h3>Arabic Calligraphy</h3>
+                        <div class="rating">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                        </div>
+                        <div class="price">
+                            <p class="current-price">220<span>L.E</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="product-20.jpg" alt="">
+                    <div class="card-info">
+                        <h3>Engraved glass Lamp</h3>
+                        <div class="rating">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                        <div class="price">
+                            <p class="current-price">130<span>L.E</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button>View More</button>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="co-6 container">
+            <div class="subscribe-box">
+                <label for="">STAY UPTO DATE ABOUT OUR LATEST OFFERS</label>
+                <div class="subscribe-input">
+                    <input type="email" placeholder="Enter your email address">
+                    <button>Subscribe to Newsletter</button>
+                </div>
+            </div>
+            <div class="footer-links">
+                <div class="logo-and-social">
+                    <img src="/logo.png" alt="" width="100px">
+                    <p>Handmade with care to reflect your unique taste and perfectly suit your needs.</p>
+                    <div class="social-links">
+                        <a href="">
+                            <img src="facebook.png" alt="">
+                        </a>
+                        <a href="">
+                            <img src="social.png" alt="">
+                        </a>
+                        <a href="">
+                            <img src="twitter.png" alt="">
+                        </a>
+                        <a href="">
+                            <img src="github.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-links">
+                    <h4>COMPANY</h4>
+                    <ul>
+                        <li><a href="">About Us</a></li>
+                        <li><a href="">Press</a></li>
+                        <li><a href="">Careers</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="contact-links">
+                    <h4>HELP</h4>
+                    <ul>
+                        <li><a href="">Customer Support</a></li>
+                        <li><a href="">Delivery Deitails</a></li>
+                        <li><a href="">Terms & Conditions</a></li>
+                        <li><a href="">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="contact-links">
+                    <h4>FAQ</h4>
+                    <ul>
+                        <li><a href="">Account</a></li>
+                        <li><a href="">Manage Deliveries</a></li>
+                        <li><a href="">Orders</a></li>
+                        <li><a href="">Payments</a></li>
+                    </ul>
+                </div>
+                <div class="contact-links">
+                    <h4>RESOURCES</h4>
+                    <ul>
+                        <li><a href="">Free eBooks</a></li>
+                        <li><a href="">Development Tutorial</a></li>
+                        <li><a href="">Events</a></li>
+                        <li><a href="">YouTube Playlist</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="copy-right-and-payment">
+                <p class="copy-right">Naqsh © 2024-2025, All Rights Reserved</p>
+                <div class="pay-methods">
+                    <img src="visa.png" alt="">
+                    <img src="card.png" alt="">
+                    <img src="paypal.png" alt="">
+                    <img src="apple-pay.png" alt="">
+                    <img src="google-pay.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
